@@ -1,0 +1,1 @@
+export const getHash= ()=> location.hash.toLowerCase().slice(1) || '/';

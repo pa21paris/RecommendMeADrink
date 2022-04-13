@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+    justify-items: center;
+    gap:20px
+}
+
+.drink-container a img{
+    border-radius: 50%;
+    height: 250px;
+}
+
+.drink-container a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.drink-container a p{
+    width: fit-content;
+}

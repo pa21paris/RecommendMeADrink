@@ -1,2 +1,4 @@
+import { renderPage } from './utils/RenderPage';
 import './styles/styles.css';
-console.log('Hola',' Chau');
+
+window.addEventListener('load',renderPage);
