@@ -4,7 +4,26 @@
     box-sizing: border-box;
 }
 
-main{
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover{
+  color: rgb(35, 35, 218);
+}
+
+.list-container{
+    font-size: 1.6rem;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -13,12 +32,12 @@ main{
     gap:20px
 }
 
-.drink-container a img{
+.item-container a img{
     border-radius: 50%;
     height: 250px;
 }
 
-.drink-container a{
+.item-container a{
     text-decoration: none;
     color: black;
     font-size: larger;
@@ -28,6 +47,27 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.drink-container a p{
+.item-container a p{
     width: fit-content;
+}
+
+.drink-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px;
+    gap: 20px;
+}
+
+.drink-container img{
+    min-width: 250px;
+    max-height: 80vh;
+    width: 100%;
+}
+
+.drink-container .info-container{
+    font-size: 2rem;
+}
+
+.drink-container .info-container h2{
+    margin-bottom: 4%;
 }
