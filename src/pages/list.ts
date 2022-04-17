@@ -2,7 +2,7 @@ import { dataFetch } from "../utils/DataFetch"
 
 export const list=async (result:any[])=>{
     return `
-    <div class="list-container">
+    <div class="list-container container">
         ${result.map((drink)=>{
             const drinkObj=drink.drinks[0];
             const id=drinkObj.idDrink;

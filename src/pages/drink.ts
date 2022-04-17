@@ -8,7 +8,7 @@ export const drink= async (res:any)=>{
     const type=drinkObj.strAlcoholic;
     const recipe=drinkObj.strInstructions;
     return `
-    <div class="drink-container">
+    <div class="drink-container container">
         <img src="${img}" alt="image of ${name}">
         <div class="info-container">
             <h2>${name}</h2>
